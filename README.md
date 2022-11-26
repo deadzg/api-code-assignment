@@ -99,9 +99,6 @@ If this solution is to be designed at a production level, there are multiple opt
 
 The selection of the above tools and technologies depends on various factors like use cases, scale, context of the problem, cost, skill set availability etc.
 
-## Implementation Summary
-This flowchart  covers the key component of the code to easily understand the implementation
-![Implementation Flow Chart](./Implementation-Flowchart-POST.png)
 
 ## Evidence of the Solution
 ### Application Build Evidence
