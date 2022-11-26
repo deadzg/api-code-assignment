@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "a67bcbf2-8e4c-4c6c-81ef-0421dff78d1c",
+		"name": "API Code Assignment Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ProjectInfo-Happy-Path",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "API_KEY",
+						"value": "apiKey1",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/projects?language=Java",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"projects"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "Java"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProjectInfo-Invalid-Creds",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "API_KEY",
+						"value": "apiKey1",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/projects?language=Java",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"projects"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "Java"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProjectInfo-Invalid-Lang",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "API_KEY",
+						"value": "apiKey1",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/projects?language=Java",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"projects"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "Java"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
